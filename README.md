@@ -51,7 +51,7 @@ Here's a look at the application in action.
 ### 1. Clone the Repository
 
 ```bash
-git clone [https://github.com/YourUsername/enterprise-knowledge-assistant.git](https://github.com/YourUsername/enterprise-knowledge-assistant.git)
+git clone https://github.com/Rithesh101/enterprise-knowledge-assistant
 cd enterprise-knowledge-assistant
 ```
 
