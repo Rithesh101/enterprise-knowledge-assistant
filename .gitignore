@@ -1,0 +1,20 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+instance/
+faiss_index/
+*.db
+
+# Node
+node_modules/
+.npm
+npm-debug.log*
+
+# Secrets
+.env
+
+# IDE / OS files
+.vscode/
+.idea/
+.DS_Store
