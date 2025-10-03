@@ -1,4 +1,4 @@
-# Enterprise Knowledge Assistant 🧠
+# Enterprise Knowledge Assistant 
 
 An AI-powered internal assistant that uses a Retrieval-Augmented Generation (RAG) architecture to answer complex, policy-aware employee questions based on an internal knowledge base.
 
@@ -39,7 +39,7 @@ An AI-powered internal assistant that uses a Retrieval-Augmented Generation (RAG
 ### 1. Clone the Repository
 
 ```bash
-git clone [https://github.com/YourUsername/enterprise-knowledge-assistant.git](https://github.com/YourUsername/enterprise-knowledge-assistant.git)
+git clone https://github.com/Rithesh101/enterprise-knowledge-assistant
 cd enterprise-knowledge-assistant
 ```
 
