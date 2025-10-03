@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Rithesh101/enterprise-knowledge-assistant/main/assets/banner.png" alt="Project Banner">
+  <img src="https://raw.githubusercontent.com/Rithesh101/enterprise-knowledge-assistant/main/assets/banner.png" alt="Project Banner" width="100%">
   <h1>Enterprise Knowledge Assistant</h1>
   <p>An AI-powered internal assistant using a RAG architecture to answer questions based on a private knowledge base.</p>
 </div>
