@@ -1,20 +1,32 @@
-# Enterprise Knowledge Assistant 
-
-An AI-powered internal assistant that uses a Retrieval-Augmented Generation (RAG) architecture to answer complex, policy-aware employee questions based on an internal knowledge base.
-
----
-
-## Key Features
-
--   **Intelligent Q&A:** Leverages a Large Language Model (Gemini) to provide natural, conversational answers grounded in source documents.
--   **Retrieval-Augmented Generation (RAG):** Ensures answers are accurate and prevents AI "hallucination" by retrieving relevant context from a vector database before generating a response.
--   **Role-Based Access Control:** A secure Flask backend with JWT authentication ensures that users can only access information from documents relevant to their department.
--   **Local & Free Embeddings:** Uses a local Hugging Face model (`all-MiniLM-L6-v2`) for creating document embeddings, ensuring data privacy and zero cost.
--   **Modern UI:** A clean and responsive chat interface built with React.js.
+<div align="center">
+  <img src="https://raw.githubusercontent.com/YourUsername/enterprise-knowledge-assistant/main/assets/banner.png" alt="Project Banner">
+  <h1>Enterprise Knowledge Assistant 🧠</h1>
+  <p>An AI-powered internal assistant using a RAG architecture to answer questions based on a private knowledge base.</p>
+</div>
 
 ---
 
-## Tech Stack
+## ✨ Key Features
+
+-   **🤖 Intelligent Q&A:** Leverages a Large Language Model (Gemini) to provide natural, conversational answers grounded in source documents.
+-   **📚 Retrieval-Augmented Generation (RAG):** Ensures answers are accurate and prevents AI "hallucination" by retrieving relevant context from a vector database before generating a response.
+-   **🔐 Secure & Role-Based:** A Flask backend with JWT authentication ensures that users can only access information from documents relevant to their department.
+-   **💸 Cost-Effective & Private:** Uses a free, local Hugging Face model for creating document embeddings, ensuring data privacy and zero cost for that step.
+-   **💻 Modern UI:** A clean and responsive chat interface built with React.js.
+
+---
+
+## 🖼️ Application Gallery
+
+Here's a look at the application in action.
+
+| Login Page                                      | Register Page                                   | Chat Interface                                  |
+| ----------------------------------------------- | ----------------------------------------------- | ----------------------------------------------- |
+| ``      | ``   | ``  |
+
+---
+
+## 🛠️ Tech Stack
 
 -   **Frontend:** React.js, Vite
 -   **Backend:** Flask (Python)
@@ -28,7 +40,7 @@ An AI-powered internal assistant that uses a Retrieval-Augmented Generation (RAG
 
 ---
 
-## Setup and Installation
+## 🚀 Setup and Installation
 
 ### Prerequisites
 
@@ -39,7 +51,7 @@ An AI-powered internal assistant that uses a Retrieval-Augmented Generation (RAG
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/Rithesh101/enterprise-knowledge-assistant
+git clone [https://github.com/YourUsername/enterprise-knowledge-assistant.git](https://github.com/YourUsername/enterprise-knowledge-assistant.git)
 cd enterprise-knowledge-assistant
 ```
 
@@ -94,7 +106,7 @@ npm install
 
 ---
 
-## How to Use
+## ⚙️ How to Use
 
 1.  Navigate to the application in your browser.
 2.  **Register** a new account, selecting a department (e.g., "HR" or "Engineering").
