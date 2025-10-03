@@ -1,32 +1,32 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/YourUsername/enterprise-knowledge-assistant/main/assets/banner.png" alt="Project Banner">
-  <h1>Enterprise Knowledge Assistant 🧠</h1>
+  <img src="https://raw.githubusercontent.com/Rithesh101/enterprise-knowledge-assistant/main/assets/banner.png" alt="Project Banner">
+  <h1>Enterprise Knowledge Assistant</h1>
   <p>An AI-powered internal assistant using a RAG architecture to answer questions based on a private knowledge base.</p>
 </div>
 
 ---
 
-## ✨ Key Features
+## Key Features
 
--   **🤖 Intelligent Q&A:** Leverages a Large Language Model (Gemini) to provide natural, conversational answers grounded in source documents.
--   **📚 Retrieval-Augmented Generation (RAG):** Ensures answers are accurate and prevents AI "hallucination" by retrieving relevant context from a vector database before generating a response.
--   **🔐 Secure & Role-Based:** A Flask backend with JWT authentication ensures that users can only access information from documents relevant to their department.
--   **💸 Cost-Effective & Private:** Uses a free, local Hugging Face model for creating document embeddings, ensuring data privacy and zero cost for that step.
--   **💻 Modern UI:** A clean and responsive chat interface built with React.js.
+-   **Intelligent Q&A:** Leverages a Large Language Model (Gemini) to provide natural, conversational answers grounded in source documents.
+-   **Retrieval-Augmented Generation (RAG):** Ensures answers are accurate and prevents AI "hallucination" by retrieving relevant context from a vector database before generating a response.
+-   **Secure & Role-Based:** A Flask backend with JWT authentication ensures that users can only access information from documents relevant to their department.
+-   **Cost-Effective & Private:** Uses a free, local Hugging Face model for creating document embeddings, ensuring data privacy and zero cost for that step.
+-   **Modern UI:** A clean and responsive chat interface built with React.js.
 
 ---
 
-## 🖼️ Application Gallery
+## Application Gallery
 
 Here's a look at the application in action.
 
 | Login Page                                      | Register Page                                   | Chat Interface                                  |
 | ----------------------------------------------- | ----------------------------------------------- | ----------------------------------------------- |
-| ``      | ``   | ``  |
+| <img src="https://raw.githubusercontent.com/Rithesh101/enterprise-knowledge-assistant/main/assets/login_page.png" width="300">|<img src="https://raw.githubusercontent.com/Rithesh101/enterprise-knowledge-assistant/main/assets/Register_form.png" width="300">| <img src="https://raw.githubusercontent.com/Rithesh101/enterprise-knowledge-assistant/main/assets/chat_interface.png" width="300"> |
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 -   **Frontend:** React.js, Vite
 -   **Backend:** Flask (Python)
@@ -40,7 +40,7 @@ Here's a look at the application in action.
 
 ---
 
-## 🚀 Setup and Installation
+## Setup and Installation
 
 ### Prerequisites
 
