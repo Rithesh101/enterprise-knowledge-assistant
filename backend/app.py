@@ -4,10 +4,8 @@ from flask_cors import CORS
 from dotenv import load_dotenv
 from models import db, User
 from flask_jwt_extended import create_access_token, jwt_required, get_jwt, JWTManager
-from langchain_openai import ChatOpenAI
-from langchain_anthropic import ChatAnthropic
 from langchain_google_genai import ChatGoogleGenerativeAI
-from langchain_community.embeddings import HuggingFaceEmbeddings # <-- CHANGED
+from langchain_community.embeddings import HuggingFaceEmbeddings 
 from langchain_community.vectorstores import FAISS
 from langchain.chains import create_retrieval_chain
 from langchain.chains.combine_documents import create_stuff_documents_chain
@@ -26,7 +24,7 @@ CORS(app)
 # --- RAG CHAIN SETUP ---
 
 model_name = "all-MiniLM-L6-v2"
-embeddings = HuggingFaceEmbeddings(model_name=model_name) # <-- CHANGED
+embeddings = HuggingFaceEmbeddings(model_name=model_name) 
 
 vectorstore = FAISS.load_local("faiss_index", embeddings, allow_dangerous_deserialization=True)
 llm = ChatGoogleGenerativeAI(model="gemini-pro-latest") 
