@@ -29,7 +29,7 @@ model_name = "all-MiniLM-L6-v2"
 embeddings = HuggingFaceEmbeddings(model_name=model_name) # <-- CHANGED
 
 vectorstore = FAISS.load_local("faiss_index", embeddings, allow_dangerous_deserialization=True)
-llm = ChatGoogleGenerativeAI(model="gemini-pro-latest", convert_system_message_to_human=True) 
+llm = ChatGoogleGenerativeAI(model="gemini-pro-latest") 
 system_prompt = (
     "You are an expert assistant for answering questions about company policy. "
     "Use the following retrieved context to answer the question. "
